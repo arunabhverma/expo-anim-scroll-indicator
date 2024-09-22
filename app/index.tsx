@@ -63,8 +63,6 @@ const Main = () => {
     }
   });
 
-  console.log("aa", numbersAlphabetically[activeBlock]);
-
   const animatedScrubberBg = useAnimatedStyle(() => {
     return {
       backgroundColor: withTiming(
